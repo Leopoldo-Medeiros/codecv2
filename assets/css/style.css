@@ -1,0 +1,238 @@
+/* ------------- font Google ------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* ------------- Global ------------ */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #747e74;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2F8FC;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image-1 {
+    width: 800px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #38424d;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #747e74;
+    margin: 0;
+}
+
+span {
+    display: contents;
+    color: #ec635e;
+}
+
+/* ------------- all button css ---------- */
+
+.main-btn {
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 55px;
+    border: 2px solid #0898ef;
+    border-radius: 5px;
+    background-color: #0898ef;
+    color: #fff;
+}
+
+.main-btn:hover {
+    background-color: rgba(8, 152, 231, .7);
+    color: #fff;
+    border-color: transparent;
+}
+
+@keyframes bounceTop-1 {
+    0%, 100% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+}
+/* ------------- navbar css -------- */
+.navbar-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    padding: 20px 0;
+}
+.navbar-brand .image {
+    max-width: 250px;
+    width: 270px;
+    margin-right: 4rem;
+    margin-left: -1rem;
+    margin-top: -4rem;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #38424d;
+}
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ec635e;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    bottom: 0;
+    left: 50%;
+    border-radius: 50%;
+    background-color: #38424d;
+    opacity: 0;
+}
+
+/* ------------- home css -------------- */
+.header-hero {
+    position: relative;
+    top: 0;
+    height: 800px;
+    background-position: bottom center;
+}
+
+.header-hero-content .header-title {
+    font-size: 42px;
+    color: #38424d;
+}
+
+.header-hero-content .text {
+    margin-top: 30px;
+}
+
+.header-hero-content ul {
+    margin-top: 30px;
+}
+
+/*.header-hero-content .header-video {*/
+/*    position: relative;*/
+/*    margin-top: 6px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    text-align: center;*/
+/*    font-size: 18px;*/
+/*    border-radius: 50%;*/
+/*    background-color: #0898ef;*/
+/*    color: #fff;*/
+/*}*/
+
+.header-image {
+    position: relative;
+    padding-top: 80px;
+    animation: bounceTop-1 ease infinite;
+}
+
+
+/* --------- feature css --------- */
+
+.feature-section .single-feature {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 15px 17px 0 rgb(154 154 154 / 16%);
+}
+
+.feature-section .single-feature .icon {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin: 0 auto 30px;
+    /*background-color: #487cff;*/
+    /*color: #fff;*/
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/*.feature-section .single-feature .icon.color-2 {*/
+/*    background-color: #ffb260;*/
+/*}*/
+
+/*.feature-section .single-feature .icon.color-3 {*/
+/*    background-color: #ff92a5;*/
+/*}*/
+
+
+.feature-section .single-feature .icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    top: -8px;
+    right: -8px;
+    z-index: -1;
+    opacity: .2;
+    transition: all .3s ease-out 0s;
+}
+
+.feature-section .single-feature:hover .icon::after {
+    top: 8px;
+    right: 8px;
+}
+
+.feature-section .single-feature .content h3 {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* ------ About css ------- */
+.about-image .web {
+    max-width: 280px;
+}
