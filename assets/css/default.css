@@ -1,5 +1,5 @@
-.pt-80 {
-    padding-top: 80px;
+.pt-20 {
+    padding-top: 20px;
 }
 
 .mb-30 {
@@ -12,4 +12,8 @@
 
 .pt-120 {
     padding-bottom: 120px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
 }
