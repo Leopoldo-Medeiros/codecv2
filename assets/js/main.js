@@ -1,3 +1,5 @@
+import {tns} from 'assets/js/tiny-slider.js';
+
 $(function () {
     "use strict"
     $(window).on('load', function (event) {
@@ -10,6 +12,10 @@ $(function () {
         } else {
             $(".navbar-area").addClass("sticky")
         }
+    });
+
+    $(document).ready(function () {
+        $('.venobox').venobox();
     });
 
     // wow js
