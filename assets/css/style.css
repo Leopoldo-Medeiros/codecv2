@@ -692,14 +692,6 @@ span {
     background: 0 0;
 }
 
-.testimonial-section .tns-controls button .fa-angle-left {
-    left: 10%;
-}
-
-.testimonial-section .tns-controls button .fa-angle-right {
-    right: 10%;
-}
-
 .testimonial-section .tns-controls button svg {
     position: absolute;
     width: 60px;
@@ -790,4 +782,64 @@ span {
     font-size: 80px;
     line-height: 1;
     color: rgba(72, 124, 255, .5);
+}
+
+/* ------ pricing css ------ */
+.single-pricing {
+    padding: 25px 30px 30px;
+    box-shadow: 0 0 11px 0 rgb(154 154 154 / 16%);
+}
+
+.single-pricing .pricing-title .title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.single-pricing .pricing-price {
+    margin-top: 30px;
+}
+
+.single-pricing .pricing-price .pricing {
+    font-size: 35px;
+    font-weight: 600;
+    color: #38424d;
+    line-height: 35px;
+}
+
+.single-pricing .pricing-price .text {
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+
+.single-pricing .pricing-list {
+    margin-top: 30px;
+}
+
+.single-pricing .pricing-list li {
+    line-height: 39px;
+}
+
+.single-pricing .pricing-btn {
+    margin-top: 28px;
+}
+
+.single-pricing .pricing-btn .main-btn.main-btn-2 {
+    background-color: transparent;
+    color: #525a63;
+    border-color: #0898e7;
+}
+
+.single-pricing .pricing-btn .main-btn.main-btn-2:hover {
+    background-color: rgba(8, 125, 231, .7);
+    color: #fff;
+    border-color: transparent;
+}
+
+.check {
+    color: #05c402;
+}
+
+.nocheck {
+    color: #ec615b;
 }

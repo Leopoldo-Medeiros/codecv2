@@ -1,5 +1,3 @@
-import {tns} from 'assets/js/tiny-slider.js';
-
 $(function () {
     "use strict"
     $(window).on('load', function (event) {
