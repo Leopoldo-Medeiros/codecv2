@@ -315,6 +315,9 @@ span {
         background-color: #fff;
         box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
     }
+    img {
+        width: 100%;
+    }
 }
 
 .navbar-light .navbar-toggler {
@@ -502,12 +505,14 @@ span {
     position: relative;
     padding-top: 80px;
     animation: bounceTop-1 3s ease infinite;
+    margin-right: 200px;
+    width: 300px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .header-image img {
-        height: 0;
+        height: 10px;
     }
 }
 
@@ -531,12 +536,12 @@ span {
     z-index: -1;
 }
 
-.vbox-close {
-    color: #fff;
-    background: transparent;
-    font-size: 40px;
-    right: 12%;
-}
+/*.vbox-close {*/
+/*    color: #fff;*/
+/*    background: transparent;*/
+/*    font-size: 40px;*/
+/*    right: 12%;*/
+/*}*/
 
 
 
@@ -669,6 +674,8 @@ span {
 
 .text {
     margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .about-content .main-btn {
