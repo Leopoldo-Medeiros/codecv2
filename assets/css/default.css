@@ -10,8 +10,8 @@
     padding-top: 70px;
 }
 
-.pt-120 {
-    padding-bottom: 120px;
+.pb-220 {
+    padding-bottom: 320px;
 }
 
 .mb-60 {
@@ -30,8 +30,8 @@
     padding-top: 40px;
 }
 
-.mt-60 {
-    height: 50vw;
+.mb-130 {
+    margin-bottom: 130px;
 }
 
 .pt-150 {
@@ -50,9 +50,21 @@
     height: 150px;
 }
 
+.mb-200 {
+    height: 200px;
+}
+
 .pt-50 {
     height: 50vw;
 }
 
+.mt-10 {
+    margin-top: 10vw;
+}
+ .mt-20 {
+    margin-bottom: 80px;
+ }
 
-
+ .mt-70 {
+    margin-top: 70px;
+ }
