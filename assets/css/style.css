@@ -417,6 +417,7 @@ span {
     top: 0;
     height: 700px;
     background-position: bottom center;
+    padding-left: 10px;
 }
 
 .header-hero .shape {
