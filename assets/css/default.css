@@ -26,10 +26,6 @@
     padding-top: 200px;
 }
 
-.pt-40 {
-    padding-top: 40px;
-}
-
 .mb-130 {
     margin-bottom: 130px;
 }
@@ -67,4 +63,12 @@
 
  .mt-70 {
     margin-top: 70px;
+ }
+
+ .mp-20 {
+     margin-top: 20px;
+ }
+
+ .mt-12 {
+     margin-top: 12px;
  }
